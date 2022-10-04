@@ -1,5 +1,5 @@
 # iFARM_TOMATO
-![This is an image of a Tomato plant](https://github.com/Jayem-11/ifarm_tomato_build/blob/main/build/pexels-janko-ferlic-2858259.jpg)
+![This is an image of a Tomato plant](https://github.com/Jayem-11/ifarm_tomato_build/blob/main/pexels-janko-ferlic-2858259.jpg)
 
 
 ## Description: 
@@ -22,20 +22,26 @@ The system is a tomato disease classifier that uses Convolutional Nueral Network
 - Nginx
 - AWS Server
 
-## <span id="ml"> Machine Learning </span>
+## 1.<span id="ml"> Machine Learning </span>
 
 - Check-out notebook:  [@notebook](https://github.com/Jayem-11/ifarm_tomato_build/blob/main/tomato_disease_prediction.ipynb)
-
+## 
 
 ![Jupyter notebook example](https://github.com/Jayem-11/ifarm_tomato_build/blob/main/Screenshot%20(458).png)
 ![Jupyter notebook example](https://github.com/Jayem-11/ifarm_tomato_build/blob/main/Screenshot%20(459).png)
 
 
-## <span id="fr"> Frontend </span>
+## 2.<span id="fr"> Frontend </span>
+- React app in `build` folder
+- To run build:
+```
+npm install -g serve
+serve -s build
+```
 
-I created frontend site to allow user to drag and drop images tomato leaves. The site then sends a POST request to a FastAPI backend server.
+I created a frontend site to allow a user to drag and drop images of tomato leaves. The site then sends a POST request to a FastAPI backend server.
 The Frontend UI looks like this:
-
+## 
 ### Before image upload
 ![](https://github.com/Jayem-11/ifarm_tomato_build/blob/main/Screenshot%20(460).png)
 
@@ -43,9 +49,46 @@ The Frontend UI looks like this:
 
 ![](https://github.com/Jayem-11/ifarm_tomato_build/blob/main/Screenshot%20(462).png)
 
-
+## 
 
 ## <span id="bk"> Backend </span>
+
+### Running FastAPI
+1. Get inside `api` file 
+```
+cd api
+```
+2. Run main.py
+```
+uvicorn main:app --reload
+```
+
+##
+
 ## <span id="dp"> Deploying </span>
+
+### Setting up nginx
+
+conf file:
+```
+
+server {
+        listen 80;
+        #listen [::]:80 default_server;
+
+        root /var/www/html/build/;
+
+        index index.html;
+
+        server_name myserver.com;
+
+        location /api/ {
+               
+                proxy_pass http://127.0.0.1:8000/;
+	}
+	
+}
+```
+
 
 
