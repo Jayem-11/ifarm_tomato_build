@@ -1,2 +1,3 @@
 # ifarm_tomato_build
-![This is an image](https://github.com/Jayem-11/ifarm_tomato_build/blob/main/build/pexels-janko-ferlic-2858259.jpg | width=100)
+![This is an image](https://github.com/Jayem-11/ifarm_tomato_build/blob/main/build/pexels-janko-ferlic-2858259.jpg )
+<img src="https://github.com/Jayem-11/ifarm_tomato_build/blob/main/build/pexels-janko-ferlic-2858259.jpg" width=50% height=50%>
