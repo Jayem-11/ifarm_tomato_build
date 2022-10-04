@@ -1,5 +1,5 @@
 # iFARM_TOMATO
-![This is an image](https://github.com/Jayem-11/ifarm_tomato_build/blob/main/build/pexels-janko-ferlic-2858259.jpg)
+![This is an image of a Tomato plant](https://github.com/Jayem-11/ifarm_tomato_build/blob/main/build/pexels-janko-ferlic-2858259.jpg)
 
 
 ## Description: 
@@ -23,6 +23,7 @@ The system is a tomato disease classifier that uses Convolutional Nueral Network
 - AWS Server
 
 ## <span id="ml"> Machine Learning </span>
+
 - Check-out notebook:  [@notebook](https://github.com/Jayem-11/ifarm_tomato_build/blob/main/tomato_disease_prediction.ipynb)
 
 
