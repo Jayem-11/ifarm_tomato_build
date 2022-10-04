@@ -89,6 +89,9 @@ server {
 	
 }
 ```
+## 
 
+Project is Hosted at: [my_AWS_ec2 instance](http://ec2-44-202-219-114.compute-1.amazonaws.com/)
+- I will update the link incase I change the ec2 instance
 
 
