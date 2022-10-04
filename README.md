@@ -23,9 +23,11 @@ The system is a tomato disease classifier that uses Convolutional Nueral Network
 - AWS Server
 
 ## <span id="ml"> Machine Learning </span>
+- Check-out notebook:  [@notebook](https://github.com/Jayem-11/ifarm_tomato_build/blob/main/tomato_disease_prediction.ipynb)
+
+
 ![Jupyter notebook example](https://github.com/Jayem-11/ifarm_tomato_build/blob/main/Screenshot%20(458).png)
 ![Jupyter notebook example](https://github.com/Jayem-11/ifarm_tomato_build/blob/main/Screenshot%20(459).png)
-- Check-out notebook:  [@notebook](https://github.com/Jayem-11/ifarm_tomato_build/blob/main/tomato_disease_prediction.ipynb)
 
 
 ## <span id="fr"> Frontend </span>
