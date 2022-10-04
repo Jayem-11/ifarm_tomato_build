@@ -8,3 +8,14 @@ The system is a tomato disease classifier that uses Convolutional Nueral Network
 ## Author
 - Github [@JM_Rono](https://github.com/Jayem-11)
 - Linked_in [@John Michael Rono](https://www.linkedin.com/in/john-michael-rono-26a2b6183/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BGItpY4FbT0mUzd4XQz%2FwxQ%3D%3D)
+
+## Table of Contents
+[1. Machine learning](#ml) <br>
+[2. Frontend](#fr) <br>
+[3. Backend](#bk) <br>
+[4. Deploying](#dp) <br>
+
+## <span id="ml"> Machine Learning </span>
+## <span id="fr"> Frontend </span>
+## <span id="bk"> Backend </span>
+## <span id="dp"> Deploying </span>
