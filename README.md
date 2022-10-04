@@ -15,13 +15,35 @@ The system is a tomato disease classifier that uses Convolutional Nueral Network
 [3. Backend](#bk) <br>
 [4. Deploying](#dp) <br>
 
+## Tech Stack
+- Tensorflow
+- React
+- FastAPI
+- Nginx
+- AWS Server
+
 ## <span id="ml"> Machine Learning </span>
-![Jupyter notebook example](https://github.com/Jayem-11/ifarm_tomato_build/blob/main/Screenshot%20(458).png)
-![Jupyter notebook example](https://github.com/Jayem-11/ifarm_tomato_build/blob/main/Screenshot%20(459).png)
 - Check-out notebook:  [@notebook](https://github.com/Jayem-11/ifarm_tomato_build/blob/main/tomato_disease_prediction.ipynb)
 
 
+![Jupyter notebook example](https://github.com/Jayem-11/ifarm_tomato_build/blob/main/Screenshot%20(458).png)
+![Jupyter notebook example](https://github.com/Jayem-11/ifarm_tomato_build/blob/main/Screenshot%20(459).png)
+
+
 ## <span id="fr"> Frontend </span>
+
+I created frontend site to allow user to drag and drop images tomato leaves. The site then sends a POST request to a FastAPI backend server.
+The Frontend UI looks like this:
+
+### Before image upload
+![](https://github.com/Jayem-11/ifarm_tomato_build/blob/main/Screenshot%20(460).png)
+
+### After image upload
+
+![](https://github.com/Jayem-11/ifarm_tomato_build/blob/main/Screenshot%20(462).png)
+
+
+
 ## <span id="bk"> Backend </span>
 ## <span id="dp"> Deploying </span>
 
