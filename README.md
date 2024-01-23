@@ -1,4 +1,6 @@
 # iFARM_TOMATO
+Tomato disease classifier wih CNN
+
 ![This is an image of a Tomato plant](https://github.com/Jayem-11/ifarm_tomato_build/blob/main/pexels-janko-ferlic-2858259.jpg)
 photo credits: [Janko Ferlic](https://www.pexels.com/@thepoorphotographer/)
 
